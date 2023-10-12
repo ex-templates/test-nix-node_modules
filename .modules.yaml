@@ -1,0 +1,57 @@
+hoistPattern:
+  - '*'
+hoistedDependencies:
+  /@octokit/auth-token/4.0.0:
+    '@octokit/auth-token': private
+  /@octokit/core/5.0.1:
+    '@octokit/core': private
+  /@octokit/endpoint/9.0.1:
+    '@octokit/endpoint': private
+  /@octokit/graphql/7.0.2:
+    '@octokit/graphql': private
+  /@octokit/openapi-types/19.0.0:
+    '@octokit/openapi-types': private
+  /@octokit/plugin-paginate-rest/9.0.0(@octokit/core@5.0.1):
+    '@octokit/plugin-paginate-rest': private
+  /@octokit/plugin-request-log/4.0.0(@octokit/core@5.0.1):
+    '@octokit/plugin-request-log': private
+  /@octokit/plugin-rest-endpoint-methods/10.0.1(@octokit/core@5.0.1):
+    '@octokit/plugin-rest-endpoint-methods': private
+  /@octokit/request-error/5.0.1:
+    '@octokit/request-error': private
+  /@octokit/request/8.1.4:
+    '@octokit/request': private
+  /@octokit/types/12.0.0:
+    '@octokit/types': private
+  /before-after-hook/2.2.3:
+    before-after-hook: private
+  /deprecation/2.3.1:
+    deprecation: private
+  /is-plain-object/5.0.0:
+    is-plain-object: private
+  /once/1.4.0:
+    once: private
+  /undici-types/5.25.3:
+    undici-types: private
+  /universal-user-agent/6.0.0:
+    universal-user-agent: private
+  /wrappy/1.0.2:
+    wrappy: private
+included:
+  dependencies: true
+  devDependencies: true
+  optionalDependencies: true
+injectedDeps: {}
+layoutVersion: 5
+nodeLinker: isolated
+packageManager: pnpm@8.3.1
+pendingBuilds: []
+prunedAt: Thu, 12 Oct 2023 09:37:19 GMT
+publicHoistPattern:
+  - '*eslint*'
+  - '*prettier*'
+registries:
+  default: https://registry.npmjs.org/
+skipped: []
+storeDir: D:\.pnpm-store\v3
+virtualStoreDir: D:\Projects\nixpacks-examples\node_modules\.pnpm
